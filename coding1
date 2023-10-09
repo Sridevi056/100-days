@@ -1,0 +1,29 @@
+package sridevi;
+
+public class Sridevi {
+
+    public static void main(String[] args) {
+        int angkaBulat = 10;
+        long angkaPanjang = 1000000000L;
+        double angkaDesimal = 3.14;
+        float angkaDesimalKecil = 2.71828f;
+        char karakter = 'A';
+
+        boolean benar = true;
+        boolean salah = false;
+        String teks = "Ini adalah contoh tipe data String";
+
+      
+        System.out.println("angkaBulat: " + angkaBulat);
+        System.out.println("angkaPanjang: " + angkaPanjang);
+        System.out.println("angkaDesimal: " + angkaDesimal);
+        System.out.println("angkaDesimalKecil: " + angkaDesimalKecil);
+        System.out.println("karakter: " + karakter);
+        System.out.println("benar: " + benar);
+        System.out.println("salah: " + salah);
+        System.out.println("teks: " + teks);
+    }
+    
+}
+    
+
