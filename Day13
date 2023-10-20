@@ -1,0 +1,12 @@
+package cipi; 
+import java.util.Arrays;
+
+public class cipi {
+    public static void main(String[] args) {
+        int[] numbers = {1, 2, 3, 4, 5};
+        
+        String arrayString = Arrays.toString(numbers);
+        
+        System.out.println(arrayString);
+    }
+}
