@@ -1,0 +1,11 @@
+package latihan2; 
+public class latihan2 {
+    public static void main(String[] args) {
+        int i = 1;
+        
+        do {
+            System.out.println("Ini adalah perulangan ke-" + i);
+            i++;
+        } while (i <= 5);
+    }
+}
