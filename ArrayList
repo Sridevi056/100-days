@@ -1,0 +1,24 @@
+package array; 
+import java.util.ArrayList;
+
+public class Array {
+    public static void main(String[] args) {
+        ArrayList<Integer> numbers = new ArrayList<>();
+        numbers.add(5);
+        numbers.add(10);
+        numbers.add(15);
+        numbers.add(20);
+
+        System.out.println("Elemen-elemen dalam ArrayList:");
+        for (int i = 0; i < numbers.size(); i++) {
+            System.out.println(numbers.get(i));
+        }
+
+        numbers.remove(2); // Menghapus elemen dengan indeks 2
+
+        System.out.println("Setelah menghapus elemen:");
+        for (int number : numbers) {
+            System.out.println(number);
+        }
+    }
+}
