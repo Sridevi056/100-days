@@ -1,0 +1,26 @@
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class ContohQueue {
+    public static void main(String[] args) {
+        // Membuat objek Queue dengan LinkedList
+        Queue<String> queue = new LinkedList<>();
+
+        // Menambahkan elemen ke dalam Queue
+        queue.offer("Elemen 1");
+        queue.offer("Elemen 2");
+        queue.offer("Elemen 3");
+
+        // Menampilkan isi Queue
+        System.out.println("Isi Queue: " + queue);
+
+        // Menghapus elemen dari Queue
+        String elemenPertama = queue.poll();
+        System.out.println("Elemen yang dihapus: " + elemenPertama);
+        System.out.println("Isi Queue setelah penghapusan: " + queue);
+
+        // Mengakses elemen pertama tanpa menghapusnya
+        String elemenPertamaSekarang = queue.peek();
+        System.out.println("Elemen pertama sekarang: " + elemenPertamaSekarang);
+    }
+}
