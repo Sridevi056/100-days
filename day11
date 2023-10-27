@@ -1,1 +1,12 @@
-3
+package depi; 
+public class depi {
+    public static void main(String[] args) {
+        int awal = 1;
+        int akhir = 10;
+
+        for (int i = awal; i <= akhir; i++) {
+            System.out.println("Nomor: " + i);
+        }
+    }
+}
+
