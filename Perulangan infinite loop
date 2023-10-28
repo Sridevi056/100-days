@@ -1,0 +1,8 @@
+package soal1; 
+public class soal1 {
+    public static void main(String[] args) {
+        while (true) {
+            System.out.println("Ini adalah infinite loop. Tekan Ctrl + C untuk menghentikannya.");
+        }
+    }
+}
