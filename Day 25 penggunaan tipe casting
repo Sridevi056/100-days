@@ -1,13 +1,12 @@
-public class CastingExample {
+package tgs2; 
+public class tgs2 {
     public static void main(String[] args) {
-        // Tipe casting secara eksplisit (casting dari int ke double)
         int angkaBulat = 5;
         double angkaDesimal = (double) angkaBulat;
 
         System.out.println("Angka bulat: " + angkaBulat);
         System.out.println("Angka desimal setelah casting: " + angkaDesimal);
 
-        // Tipe casting secara implisit (casting dari double ke int)
         double angkaDesimal2 = 7.5;
         int angkaBulat2 = (int) angkaDesimal2;
 
