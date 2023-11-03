@@ -1,0 +1,9 @@
+package latihan3; 
+public class latihan3 {
+    public static void main(String[] args) {
+        boolean kondisi = true;
+        boolean hasil = !kondisi;
+
+        System.out.println("Hasil dari !kondisi adalah " + hasil);
+    }
+}
