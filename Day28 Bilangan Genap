@@ -1,0 +1,13 @@
+package latihan4; 
+
+public class latihan4 {
+    public static void main(String[] args) {
+        int angka = 6;
+
+        if (angka % 2 == 0 && angka > 0) {
+            System.out.println("Angka ini genap dan positif");
+        } else {
+            System.out.println("Angka ini bukan genap atau tidak positif");
+        }
+    }
+}
