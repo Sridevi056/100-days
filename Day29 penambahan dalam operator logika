@@ -1,0 +1,11 @@
+package latihan5;
+
+public class Latihan5 {
+
+    public static void main(String[] args) {
+        int angka = 10;
+        angka += 3; 
+        System.out.println("Nilai angka: " + angka);
+    }
+}
+  
