@@ -1,0 +1,9 @@
+package latihan5; 
+public class latihan5 {
+    public static void main(String[] args) {
+        int nilai = 10;
+
+        boolean benar = (nilai > 5 && nilai < 15);
+        System.out.println("Apakah nilai di antara 5 dan 15? " + benar);
+    }
+}
