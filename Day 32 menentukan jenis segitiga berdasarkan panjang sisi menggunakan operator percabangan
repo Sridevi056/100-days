@@ -1,0 +1,28 @@
+package taupi;
+
+import java.util.Scanner;
+
+public class Taupi {
+
+    
+    public static void main(String[] args) {
+    
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Masukkan panjang sisi segitiga: ");
+        int sisi = scanner.nextInt();
+
+        if (sisi <= 0) {
+            System.out.println("Panjang sisi tidak valid");
+        } else if (sisi == 1) {
+            System.out.println("Segitiga sama sisi");
+        } else if (sisi == 2) {
+            System.out.println("Segitiga sama kaki");
+        } else {
+            System.out.println("Segitiga sembarang");
+        }
+    
+
+
+    }
+    
+}
