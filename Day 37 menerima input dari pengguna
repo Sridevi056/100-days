@@ -1,0 +1,12 @@
+package latihan10;
+import java.util.Scanner;
+
+public class latihan10 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Masukkan angka: ");
+        
+        int userInput = scanner.nextInt();
+        System.out.println("anda memasukkan : " + userInput);
+    }
+}
