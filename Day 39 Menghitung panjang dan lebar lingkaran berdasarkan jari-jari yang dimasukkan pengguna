@@ -1,0 +1,14 @@
+package lthn12;
+import java.util.Scanner;
+
+public class lthn12 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan jari-jari lingkaran: ");
+        double jariJari = input.nextDouble();
+        double panjang = 2 * 22 / 7 * jariJari;
+        double lebar = 22 / 7 * jariJari * jariJari;
+        System.out.println("Panjang lingkaran adalah: " + panjang);
+        System.out.println("Lebar lingkaran adalah: " + lebar);
+    }
+}
