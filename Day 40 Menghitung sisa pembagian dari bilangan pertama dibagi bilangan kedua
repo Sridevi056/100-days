@@ -1,0 +1,18 @@
+package latihan13;
+import java.util.Scanner;
+
+public class latihan13 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Masukkan bilangan pertama: ");
+        int bilangan1 = scanner.nextInt();
+
+        System.out.print("Masukkan bilangan kedua: ");
+        int bilangan2 = scanner.nextInt();
+
+        int sisa = bilangan1 % bilangan2;
+
+        System.out.println("Sisa pembagian: " + sisa);
+    }
+}
