@@ -1,1 +1,14 @@
-Day
+package lthn20;
+import java.util.Scanner;
+
+public class lthn20 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan tiga angka: ");
+        int angka1 = input.nextInt();
+        int angka2 = input.nextInt();
+        int angka3 = input.nextInt();
+        int terbesar = Math.max(Math.max(angka1, angka2), angka3);
+        System.out.println("Angka terbesar: " + terbesar);
+    }
+}
