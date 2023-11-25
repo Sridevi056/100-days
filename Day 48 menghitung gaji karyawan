@@ -1,0 +1,14 @@
+package lthn21;
+import java.util.Scanner;
+public class lthn21 {
+	public static void main(String[] args) {
+	
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Masukkan jam kerja per minggu: ");
+        double jamKerja = sc.nextDouble();
+        System.out.print("Masukkan tarif per jam: ");
+        double tarifPerJam = sc.nextDouble();
+        double gaji = jamKerja * tarifPerJam;
+        System.out.println("Gaji karyawan: " + gaji);
+    }
+}
