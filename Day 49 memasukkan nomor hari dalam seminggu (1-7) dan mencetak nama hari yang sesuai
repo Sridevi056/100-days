@@ -1,0 +1,17 @@
+package lthn21;
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+		
+
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan nomor hari (1-7): ");
+        int nomorHari = input.nextInt();
+        String[] hari = {"Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"};
+        if (nomorHari >= 1 && nomorHari <= 7) {
+            System.out.println("Hari: " + hari[nomorHari - 1]);
+        } else {
+            System.out.println("Nomor hari tidak valid");
+        }
+    }
+}
