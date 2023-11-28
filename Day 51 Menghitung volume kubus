@@ -1,0 +1,12 @@
+package lthn23; 
+import java.util.Scanner;
+
+public class lthn23 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Masukkan sisi kubus: ");
+        double sisi = sc.nextDouble();
+        double volume = Math.pow(sisi, 3);
+        System.out.println("Volume kubus: " + volume);
+    }
+}
