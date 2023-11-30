@@ -1,0 +1,14 @@
+package lthn; 
+import java.util.Scanner;
+public class lthn {
+	public static void main(String[] args) {
+		
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Masukkan jarak tempuh (km): ");
+        double jarak = sc.nextDouble();
+        System.out.print("Masukkan waktu tempuh (jam): ");
+        double waktu = sc.nextDouble();
+        double kecepatan = jarak / waktu;
+        System.out.println("Kecepatan rata-rata: " + kecepatan + " km/jam");
+    }
+}
