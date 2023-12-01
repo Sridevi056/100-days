@@ -1,0 +1,14 @@
+package latihn01; 
+import java.util.Scanner;
+
+public class latihn01 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan jumlah kehadiran: ");
+        int kehadiran = input.nextInt();
+        System.out.print("Masukkan jumlah pertemuan: ");
+        int pertemuan = input.nextInt();
+        double persentase = (kehadiran * 100.0) / pertemuan;
+        System.out.println("Persentase kehadiran: " + persentase + "%");
+    }
+}
