@@ -1,0 +1,15 @@
+package latihan03; 
+import java.util.Scanner;
+public class latihan03 {
+	public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan nilai matematika: ");
+        double matematika = input.nextDouble();
+        System.out.print("Masukkan nilai fisika: ");
+        double fisika = input.nextDouble();
+        System.out.print("Masukkan nilai biologi: ");
+        double biologi = input.nextDouble();
+        double rataRata = (matematika + fisika + biologi) / 3;
+        System.out.println("Rata-rata nilai: " + rataRata);
+    }
+}
