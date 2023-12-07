@@ -1,0 +1,16 @@
+package latihan06;
+import java.util.Scanner;
+public class latihan06 {
+	public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Masukkan nilai UTS: ");
+        short uts = sc.nextShort();
+        System.out.print("Masukkan nilai UAS: ");
+        short uas = sc.nextShort();
+        System.out.print("Masukkan nilai tugas: ");
+        short tugas = sc.nextShort();
+        double nilaiAkhir = uts * 0.3 + uas * 0.4 + tugas * 0.3;
+        System.out.println("Nilai akhir adalah " + nilaiAkhir);
+    }
+}
