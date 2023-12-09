@@ -1,0 +1,13 @@
+import java.util.ArrayList;
+import java.util.HashSet;
+public class Main {
+	public static void main(String[] args) {
+        ArrayList<String> fruits = new ArrayList<>();
+        fruits.add("apel");
+        fruits.add("apel");
+        fruits.add("jeruk");
+        fruits.add("melon");
+        HashSet<String> uniqueFruits = new HashSet<>(fruits);
+        System.out.println(uniqueFruits);
+    }
+}
