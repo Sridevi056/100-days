@@ -1,0 +1,13 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class ltihan07{
+    public static void main(String[] args) {
+        ArrayList<String> buah = new ArrayList<>();
+        buah.add("apel");
+        buah.add("jeruk");
+        buah.add("jambu");
+        Collections.sort(buah);
+        System.out.println(buah);
+    }
+}
