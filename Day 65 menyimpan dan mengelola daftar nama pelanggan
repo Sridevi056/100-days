@@ -1,0 +1,25 @@
+package ltihan09; 
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class ltihan09 {
+    public static void main(String[] args) {
+        ArrayList<String> customers = new ArrayList<>();
+        Scanner sc = new Scanner(System.in);
+
+        customers.add("cindy");
+        customers.add("cia");
+        customers.add("cipi");
+
+        System.out.println("Daftar Pelanggan: " + customers);
+
+        System.out.println("Masukkan nama pelanggan baru: ");
+        String newCustomer = sc.next();
+        customers.add(newCustomer);
+
+    
+        System.out.println("Daftar Pelanggan Setelah Penambahan: " + customers);
+
+        sc.close();
+    }
+}
