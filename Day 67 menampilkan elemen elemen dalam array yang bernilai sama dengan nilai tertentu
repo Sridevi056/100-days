@@ -1,0 +1,12 @@
+package ltihan;
+public class ltihan {
+    public static void main(String[] args) {
+        int[] numbers = {1, 2, 3, 4, 5};
+        int value = 3;
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] == value) {
+                System.out.print(numbers[i] + " ");
+            }
+        }
+    }
+}
