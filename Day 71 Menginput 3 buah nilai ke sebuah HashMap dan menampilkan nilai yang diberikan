@@ -1,0 +1,19 @@
+package soal2;
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class soal2 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        HashMap<String, String> map = new HashMap<>();
+        System.out.print("Masukkan nilai pertama: ");
+        String key1 = input.nextLine();
+        System.out.print("Masukkan nilai kedua: ");
+        String value2 = input.nextLine();
+        System.out.print("Masukkan nilai ketiga: ");
+        String value3 = input.nextLine();
+        map.put(key1, value2);
+        map.put("Total", value3);
+        System.out.println("Isi HashMap: " + map);
+    }
+}
