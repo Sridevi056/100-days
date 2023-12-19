@@ -1,0 +1,12 @@
+import java.util.HashMap;
+
+public class soal3 {
+    public static void main(String[] args) {
+        HashMap<String, Integer> nilaiSiswa = new HashMap<>();
+        nilaiSiswa.put("John", 85);
+        nilaiSiswa.put("Alice", 90);
+        nilaiSiswa.put("Bob", 78);
+
+        System.out.println(nilaiSiswa);
+    }
+}
