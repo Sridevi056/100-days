@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan kata: ");
+        String kata = input.nextLine();
+        String reversed = new StringBuilder(kata).reverse().toString();
+        boolean isPalindrom = kata.equalsIgnoreCase(reversed);
+        if (isPalindrom) {
+            System.out.println("Palindrom");
+        } else {
+            System.out.println("Bukan palindrom");
+        }
+    }
+}
