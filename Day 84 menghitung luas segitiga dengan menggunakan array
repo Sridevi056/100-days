@@ -1,0 +1,8 @@
+public class day84 {
+    public static void main(String[] args) {
+        double alas = 5;
+        double[] sisi = {3, 4, 5};
+        double luas = 0.5 * alas * sisi[0] * sisi[1] * sisi[2];
+        System.out.println("Luas segitiga sama: " + luas);
+    }
+}
