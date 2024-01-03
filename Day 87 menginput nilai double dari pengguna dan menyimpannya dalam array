@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class day87 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        char[] array = new char[n];
+
+        for (int i = 0; i < array.length; i++) {
+            array[i] = (char) scanner.nextInt();
+        }
+
+        for (char num : array) {
+            System.out.println(num);
+        }
+    }
+}
