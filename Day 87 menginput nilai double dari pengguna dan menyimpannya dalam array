@@ -4,13 +4,13 @@ public class day87 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-        char[] array = new char[n];
+        double[] array = new double[n];
 
         for (int i = 0; i < array.length; i++) {
-            array[i] = (char) scanner.nextInt();
+            array[i] = scanner.nextDouble();
         }
 
-        for (char num : array) {
+        for (double num : array) {
             System.out.println(num);
         }
     }
