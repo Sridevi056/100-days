@@ -1,0 +1,17 @@
+import java.util.Arrays;
+public class day90 {
+    public static void main(String[] args) {
+        int[] array = {1, 2, 3, 4, 5};
+        int n = 2;
+        System.out.println("Array sebelum rotasi: " + Arrays.toString(array));
+        for (int i = 0; i < n; i++) {
+            int j, last;
+            last = array[array.length - 1];
+            for (j = array.length - 1; j > 0; j--) {
+                array[j] = array[j - 1];
+            }
+            array[0] = last;
+        }
+        System.out.println("Array setelah rotasi ke kanan: " + Arrays.toString(array));
+    }
+}
