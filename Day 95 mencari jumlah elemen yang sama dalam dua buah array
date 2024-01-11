@@ -1,0 +1,18 @@
+public class day95 {
+    public static void main(String[] args) {
+        int[] numbers1 = {1, 2, 3, 4, 5};
+        int[] numbers2 = {4, 5, 6, 7, 8};
+        int n1 = numbers1.length;
+        int n2 = numbers2.length;
+        int count = 0;
+        for (int i = 0; i < n1; i++) {
+            for (int j = 0; j < n2; j++) {
+                if (numbers1[i] == numbers2[j]) {
+                    count++;
+                    break;
+                }
+            }
+        }
+        System.out.println("Jumlah elemen yang sama dalam dua array: " + count);
+    }
+}
