@@ -1,0 +1,12 @@
+public class day99{
+    public static void main(String[] args) {
+        int[] numbers = {10, 20, 30, 40, 50};
+        int a = numbers[0];
+        for (int i = 1; i < numbers.length; i++) {
+            if (numbers[i] > a) {
+                a = numbers[i];
+            }
+        }
+        System.out.println("Bilangan bulat terbesar dalam array: " + a);
+    }
+}
